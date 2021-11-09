@@ -84,7 +84,7 @@ module.exports = {
       return res.json({
         error: false,
         status: 200,
-        message: "Design Deleted Successfully",
+        message: "Image Deleted Successfully",
       });
     });
   },
@@ -99,7 +99,7 @@ module.exports = {
       return res.json({
         error: false,
         status: 200,
-        message: "Design Updated Successfully",
+        message: "Image Updated Successfully",
       });
     });
   },
