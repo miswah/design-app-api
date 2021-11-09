@@ -41,6 +41,6 @@ app.get("/ping", (req, res) => {
   });
 });
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
   console.log("Server started listening on PORT : " + PORT);
 });
